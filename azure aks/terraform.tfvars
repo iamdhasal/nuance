@@ -1,9 +1,0 @@
-resource_group_name     = "nuance_vivek_rg"
-location                = "East US"
-cluster_name            = "terraform-aks-nuance"
-kubernetes_version      = "1.21.7"
-system_node_count       = 1
-node_resource_group     = "aks_terraform_resources_rg"
-storage_account_name    = "vivekdatastorage"
-acr_name                = "vivekacr"
-storage_container_name  = "storagecontainer_nuance" 

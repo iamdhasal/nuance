@@ -1,15 +1,3 @@
-module "sql-database" {
-  source              = "Azure/database/azurerm"
-  version             = "1.1.0"
-  resource_group_name = "myapp"
-  location            = "westus"
-  db_name             = "mydatabase"
-  sql_admin_username  = "mradministrator"
-  sql_password        = "P@ssw0rd12345!"
-
-  tags             = {
-                        environment = "dev"
-                        costcenter  = "it"
-                      }
-
+module "azure_sql" {
+  source = "https://github.com/iamdhasal/nuance/blob/main/azure%20sql/main.tf"
 }

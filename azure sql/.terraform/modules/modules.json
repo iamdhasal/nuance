@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"sql-database","Source":"registry.terraform.io/Azure/database/azurerm","Version":"1.1.0","Dir":".terraform/modules/sql-database"}]}
